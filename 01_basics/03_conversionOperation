@@ -1,0 +1,21 @@
+let score = "33";
+
+console.log(typeof score)
+console.log(typeof (score))
+let ValueInNumber = Number (score)
+console.log(typeof ValueInNumber)
+// its value will come nan means not a number
+console.log(ValueInNumber)
+
+/*"33" = 33
+"33abc" = nan
+true = 1 */
+ let isloggedIn = "abhigyan";
+ let booleanIsLogged = Boolean(isloggedIn)
+ console.log(booleanIsLogged);
+  //1 = true; 0=false
+  //"" = false
+  //"abhigyan" = true
+  let someNumber = 33 
+  let StringNumber = String(someNumber)
+  console.log(typeof StringNumber);
